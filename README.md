@@ -6,6 +6,7 @@ Hardware:
 
 
 LED	(GPIO17-Pin11)	    wiring: GPIO17 → 220–330 Ω resistor → LED (+, long leg) → LED (−) → GND
+
 Button	(GPIO27-Pin13)	wiring: GPIO27 → button → GND
 
 The button uses the Pi's internal pull-up, so no external resistor is needed. Released = 1, pressed = 0.
