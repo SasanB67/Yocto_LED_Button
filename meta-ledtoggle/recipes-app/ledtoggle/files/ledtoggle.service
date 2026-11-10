@@ -1,0 +1,9 @@
+[Unit]
+Description=Toggle LED with push button
+
+[Service]
+ExecStart=/usr/bin/ledtoggle
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
